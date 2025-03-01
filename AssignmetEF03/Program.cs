@@ -47,6 +47,30 @@ namespace AssignmentEF03
             //     }
             // } 
             #endregion
+            #region Get Student with Department (Eager Loading)
+            //  using (var context = new ItiDbContext())
+            //  {
+            //      var students = context.Students.Include(s => s.Department).ToList();
+            //      foreach (var student in students)
+            //      {
+            //          Console.WriteLine($"{student.FName} {student.LName} - {student.Department.Name}");
+            //      }
+            //  }
+
+            #endregion
+            #region update
+           // using (var context = new ItiDbContext())
+           // {
+           //     var student = context.Students.Find(1);
+           //     if (student != null)
+           //     {
+           //         student.FName = "Mohamed";
+           //         context.SaveChanges();
+           //     }
+           // }
+
+            #endregion
+
         }
     }
 }
